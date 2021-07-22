@@ -8,10 +8,10 @@
 		<version>2.4.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.hcentive.exchange</groupId>
-	<artifactId>magi-rules-proxy</artifactId>
+	<groupId>com.dmn.test</groupId>
+	<artifactId>dmn-embedded</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>magi-rules-proxy</name>
+	<name>dmn-embedded</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -73,11 +73,7 @@
 			<groupId>org.kie.server</groupId>
 			<artifactId>kie-server-client</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>com.ma-hix-rules</groupId>
-			<artifactId>MA-HIX-MAGI</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
-		</dependency>
+		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
